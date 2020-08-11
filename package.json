@@ -1,0 +1,32 @@
+{
+  "name": "js-hk-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./start.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pr0pellerhead/js-hk-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pr0pellerhead/js-hk-app/issues"
+  },
+  "homepage": "https://github.com/pr0pellerhead/js-hk-app#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.10",
+    "express-http-proxy": "^1.6.2",
+    "express-jwt": "^6.0.0",
+    "mailgun-js": "^0.22.0",
+    "mongoose": "^5.9.28",
+    "node-input": "0.0.0",
+    "node-input-validator": "^4.2.1",
+    "validator": "^13.1.1"
+  }
+}

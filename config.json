@@ -1,0 +1,23 @@
+{
+    "db": {
+        "host": "",
+        "port": 27017,
+        "dbname": "",
+        "username": "",
+        "password": ""
+    },
+    "service_ports": {
+        "proxy": 8080,
+        "auth": 8081,
+        "files": 8082,
+        "notes": 8083
+    },
+    "server": {
+        "key": "tajna",
+        "upload_folder": "uploads"
+    },
+    "mailer": {
+        "domain": "",
+        "key": ""
+    }
+}
