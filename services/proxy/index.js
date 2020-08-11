@@ -7,6 +7,7 @@ const api = express();
 api.use('/api/v1/auth', proxy(`localhost:${conf.get('service_ports').auth}/api/v1/auth`));
 api.use('/api/v1/files', proxy(`localhost:${conf.get('service_ports').files}/api/v1/files`));
 api.use('/api/v1/notes', proxy(`localhost:${conf.get('service_ports').notes}/api/v1/notes`));
+api.use(express.static('/', '../../react-app/build')); // npm run build
 
 api.listen(process.env.PORT || conf.get('service_ports').proxy, err => {
     if (err) {
